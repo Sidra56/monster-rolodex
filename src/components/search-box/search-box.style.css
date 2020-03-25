@@ -1,0 +1,27 @@
+.search{
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 350px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+@media screen and (max-width:360px){
+   .search{
+    width: 300px;
+   }
+  }
+  @media screen and (max-width:375px){
+    .search{
+     width: 300px;
+    }
+}
+@media screen and (max-width:720px){
+    .search{
+     width: 350px;
+     
+    }
+}
+
