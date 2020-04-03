@@ -7,10 +7,28 @@
     grid-gap: 20px;
 
 }
+@media only screen and (max-width:1440px){
+  .card-list{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 2.5rem; 
+  }
+}
+@media only screen and (max-width:1280px){
+  .card-list{
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding-left: 5rem; 
+  }
+}
 @media only screen and (max-width:1024px){
     .card-list{
       grid-template-columns: 1fr 1fr;
       padding-left: 5rem; 
+    }
+  }
+  @media  only screen and (max-width:800px){
+    .card-list{
+      grid-template-columns: 1fr 1fr;
+      padding-left: 4rem;
     }
   }
 
@@ -25,45 +43,77 @@
   @media  only screen and (max-width:720px){
     .card-list{
       grid-template-columns: 1fr; 
-      grid-row-gap: 30px;
       padding-left: 6.5rem;
       
     }
   }
-  
-  @media only screen and (max-width:400px){
+  @media  only screen and (max-width:640px){
     .card-list{
       grid-template-columns: 1fr;
-       padding-left: 5rem;
+      padding-left: 6rem;
     }
   }
+  @media  only screen and (max-width:600px){
+    .card-list{
+      grid-template-columns: 1fr;
+      padding-left: 5.5rem;
+    }
+  }
+  @media  only screen and (max-width:500px){
+    .card-list{
+      grid-template-columns: 1fr;
+      padding-left: 3.5rem;
+    }
+  }
+  @media  only screen and (max-width:480px){
+    .card-list{
+      grid-template-columns: 1fr;
+      padding-left: 3.5rem;
+    }
+  }
+ @media  only screen and (max-width:414px){
+  .card-list{
+    grid-template-columns: 1fr;
+    padding-left: 1.5rem;
+  }
+}
+@media only screen and (max-width:411px){
+  .card-list{
+    grid-template-columns: 1fr;
+  }
+}
  
-   @media only screen and (max-width:411px){
-    .card-list{
-      grid-template-columns: 1fr;
-    }
- }
- @media  only screen and (max-width:375px){
-    .card-list{
-      grid-template-columns: 1fr;
-      padding-left: 20px;
-    }
- }
+@media only screen and (max-width:400px){
+  .card-list{
+    grid-template-columns: 1fr;
+     padding-left: 1rem;
+  }
+}
+@media only screen and (max-width:384px){
+  .card-list{
+    grid-template-columns: 1fr;
+     padding-left: 0.5rem;
+  }
+}
+@media  only screen and (max-width:375px){
+  .card-list{
+    grid-template-columns: 1fr;
+    padding-left: 5px;
+    
+  }
+}
  @media only screen and (max-width:360px){
   .card-list{
     grid-template-columns: 1fr;
-    padding-left: 20px;
+    padding-left: 1px;
   }
    }
-   @media  only screen and (max-width:414px){
-    .card-list{
-      grid-template-columns: 1fr;
-      padding-left: 1.5rem;
-    }
- }
+
  @media only screen and (max-width:320px){
   .card-list{
     grid-template-columns: 1fr;
+    width: 80vw;
+    padding-left: 2px;
     
   }
 }
